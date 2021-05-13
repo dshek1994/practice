@@ -14,5 +14,12 @@ def Fibonacci(n):
     else:
         return Fibonacci(n-1) + Fibonacci(n-2)
 
-print(Fibonacci(9))
+
+def isEven(num):
+
+    for x in range(1, num):
+        if Fibonacci(x)%2 == 0:
+            print(Fibonacci(x))
+
+isEven(20)
 
