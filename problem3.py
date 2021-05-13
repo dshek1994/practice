@@ -6,6 +6,7 @@ def isPrime(n):
     if (n <= 2):
         return False
     
+    #isPrime(10)
     #check from 2 to n-1
     for i in range(2, n):
         if (n % i == 0):
@@ -25,4 +26,4 @@ def largestPrimeFactor(num):
     
     print(largestFactor)
 
-largestPrimeFactor(13195)
+largestPrimeFactor(234453456567)
