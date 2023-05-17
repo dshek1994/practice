@@ -1,6 +1,9 @@
 #!/usr/local/bin/python3
 
 class User():
+    def __init__(self, email):
+        self.email = email
+    
     def sign_in(self):
         print('logged in')
     
@@ -8,7 +11,8 @@ class User():
         print('Do nothing')
 
 class Wizard(User):
-    def __init__(self, name, power):
+    def __init__(self, name, power, email):
+        super().__init__(email)
         self.name = name
         self.power = power
     
@@ -25,9 +29,8 @@ class Archer(User):
     def attack(self):
         print(f'attacking with arrows: {self.num_arrows}')
 
-wizard1 = Wizard('Merlin', 60)
+wizard1 = Wizard('Merlin', 60, 'merlin@gmail.com')
 archer1 = Archer('Robin', 30)
 
-for char in [wizard1, archer1]:
-    char.attack()
+print(dir(wizard1))
 
