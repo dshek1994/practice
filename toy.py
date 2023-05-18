@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3
 
 class Toy():
-    def __init__(self, color, age, dict):
+    def __init__(self, color, age):
         self.color = color
         self.age = age
         self.dict = {
