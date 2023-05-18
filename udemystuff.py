@@ -1,11 +1,5 @@
-# List slicing
+#!/usr/local/bin/python3
 
-amazon_cart = [
-    'notebooks',
-    'sunglasses',
-    'toys',
-    'grapes'
-]
+num = 9 // 2
 
-amazon_cart[0] = 'laptop'
-print(amazon_cart[0:3])
+print(num)

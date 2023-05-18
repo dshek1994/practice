@@ -47,7 +47,7 @@ def find_median_sorted_arrays(nums1, nums2):
 
 
 # Example usage
-nums1 = [1, 2, 4]
-nums2 = [3, 5, 6]
+nums1 = [3, 5, 7]
+nums2 = [6, 8, 9]
 median = find_median_sorted_arrays(nums1, nums2)
 print("Median:", median)
