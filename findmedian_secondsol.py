@@ -27,7 +27,7 @@ def findMedianSortedArrays(nums1: List[int], nums2: List[int]) -> float:
         else:
             l = i + 1
 
-arr1 = [1,3,4]
-arr2 = [6,7,8,9]
+arr1 = [1,3]
+arr2 = [6,7,8,9,10]
 
 print(findMedianSortedArrays(arr1, arr2))
